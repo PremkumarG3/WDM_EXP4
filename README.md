@@ -21,7 +21,7 @@ df=pd.read_csv("C:\\Users\\admin\\Downloads\\clustervisitor.csv")
 df
 ```
 #### Output:
-<img width="872" height="763" alt="image" src="https://github.com/user-attachments/assets/0c9418e6-5a24-4200-849f-425378650517" />
+<img width="344" height="732" alt="Screenshot 2025-09-19 181402" src="https://github.com/user-attachments/assets/40d8e080-1b88-4d53-88c4-c1a41206770c" />
 
 ```
 cluster = {
@@ -34,7 +34,7 @@ cluster
 ```
 
 #### Output:
-<img width="904" height="794" alt="image" src="https://github.com/user-attachments/assets/9379e73a-04d3-4467-84ef-e9fb4fd5cb6c" />
+<img width="278" height="736" alt="Screenshot 2025-09-19 181414" src="https://github.com/user-attachments/assets/40ba7805-259c-44b0-a883-8924690bb7b8" />
 
 ```
 count=[]
@@ -46,7 +46,7 @@ for group, condition in cluster.items():
     print(count)
 ```
 #### Output:
-<img width="939" height="847" alt="image" src="https://github.com/user-attachments/assets/569a3e3a-f46d-4585-a046-dafc02ffd7e3" />
+<img width="449" height="680" alt="Screenshot 2025-09-19 181424" src="https://github.com/user-attachments/assets/0d0bb6d9-03ed-4221-9b25-a3493eade469" />
 
 
 ```
@@ -57,7 +57,7 @@ plt.ylabel('Number visitors')
 plt.show()
 ```
 #### Output:
-<img width="851" height="605" alt="image" src="https://github.com/user-attachments/assets/a09533bc-9114-495f-95a7-8e884f6b6c3e" />
+<img width="617" height="451" alt="Screenshot 2025-09-19 181430" src="https://github.com/user-attachments/assets/6859f8af-46b2-456b-8d09-a5b340eb59e8" />
 
 #### Program 2:
 ```
@@ -72,7 +72,7 @@ newdf=sc.fit_transform(df3)
 newdf
 ```
 #### Output:
-<img width="785" height="731" alt="image" src="https://github.com/user-attachments/assets/93788ef0-68b3-4822-a9b9-5f17074bee29" />
+<img width="343" height="534" alt="Screenshot 2025-09-19 181436" src="https://github.com/user-attachments/assets/6b012ccb-d78e-49f1-adeb-f78f94c85dbc" />
 
 
 ```
@@ -81,7 +81,7 @@ df3['cluster']=kmean.fit_predict(newdf)
 df3
 ```
 #### Output:
-<img width="700" height="852" alt="image" src="https://github.com/user-attachments/assets/9212639f-2b11-4449-acb0-a7d3f81d0f79" />
+<img width="304" height="733" alt="Screenshot 2025-09-19 181445" src="https://github.com/user-attachments/assets/59239450-d668-42c4-b112-5cf163c28fa6" />
 
 
 ```
@@ -91,7 +91,7 @@ plt.ylabel('Income in thousands')
 plt.show()
 ```
 #### Output:
-<img width="927" height="606" alt="image" src="https://github.com/user-attachments/assets/8c6b7236-cd7e-4b2c-ac16-b46493d8002a" />
+<img width="661" height="451" alt="Screenshot 2025-09-19 181452" src="https://github.com/user-attachments/assets/67ee144e-f482-4e5f-870b-aabd3a5a13c3" />
 
 
 
